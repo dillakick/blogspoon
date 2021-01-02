@@ -1,0 +1,37 @@
+body {
+	font-family: arial;
+                background-image: url(https://images.fineartamerica.com/images-medium-large-5/chicago-skyline-at-night-sebastian-musial.jpg);
+background-size: 900px 1000px;
+}
+
+small {
+	transform: rotate(-40deg);
+}
+
+
+.box {
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+	width: 50%;
+	margin: auto;
+}
+
+a {
+	color: grey;
+}
+
+/*stuff you can use for the title of your blog*/
+h1  {
+        text-shadow: 6px 5px grey;
+animation: mymove 2s;
+
+}
+
+@keyframes mymove {
+  from {text-shadow: 1px 1px grey;}
+  to {text-shadow: 5px 6px grey;}
+}
